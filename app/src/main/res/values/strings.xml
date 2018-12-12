@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">NexbaseClient</string>
+
+    <!--login-->
+    <string name="nex_base">NexBase</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login">Login</string>
+    <string name="otp">OTP</string>
+
+
+    <!--ticket creation -->
+    <string name="ticket_creation">Create Ticket</string>
+    <string name="select_problem">Select Problem</string>
+    <string name="details">Details</string>
+    <string name="request_type">Request Type</string>
+    <string name="urgent_immediately">Urgent / Immediately</string>
+    <string name="schedule_time">Schedule Time &amp; Date</string>
+    <string name="submits">Submit</string>
+
+
+    <!--conformation-->
+    <string name="conformation">Conformation</string>
+    <string name="your_ticket_hasbeen_update">Your Ticket has been Successfully Updated</string>
+    <string name="ticket_id">Ticket id is</string>
+    <string name="your_ticket_has_accepted">Your ticket has be accepted and our executive Mr.Suresh is on the way</string>
+    <string name="kindly_wait_for_conformation">Kindly wait for conformation...</string>
+    <string name="your_ticket_is_on_process">Your ticket is Onprocess</string>
+    <string name="your_problem_hasbeen_resolved">Your Problem hasbeen resolved</string>
+    <string name="status">Status  -</string>
+    <string name="track_executive">Track Executive</string>
+    <string name="rate_us">Rate us</string>
+
+
+    <!--Track executive-->
+    <string name="confirm">Confirm</string>
+
+    <!--rating -->
+    <string name="rating">Rating</string>
+    <string name="feedback">Feedback</string>
+    <string name="please_conform_to_close_the_ticket">Please confirm to close the ticket</string>
+
+
+    <!--api error handler-->
+    <string name="no_internet">No internet</string>
+    <string name="something_went_wrong_while_retrieving_information">Something went wrong while retrieving information</string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBXcBvghcKeRcXRgEtGRI3eec8l8p44vzU</string>
+
+
+</resources>

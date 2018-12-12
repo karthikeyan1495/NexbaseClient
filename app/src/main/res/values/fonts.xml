@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pt_sans_web_text_bold">PTSansWebTextBold</string>
+    <string name="pt_sans_web_text_bold_italic">PTSansWebTextBoldItalic</string>
+    <string name="pt_sans_web_text_italic">PTSansWebTextItalic</string>
+    <string name="pt_sans_web_text_regular">PTSansWebTextRegular</string>
+
+
+    <string-array name="font_file_name">
+        <item>PT_Sans-Web-Bold_0.ttf</item>
+        <item>PT_Sans-Web-BoldItalic_0.ttf</item>
+        <item>PT_Sans-Web-Italic_0.ttf</item>
+        <item>PT_Sans-Web-Regular_0.ttf</item>
+
+    </string-array>
+
+    <string-array name="font_alies_name">
+        <item>@string/pt_sans_web_text_bold</item>
+        <item>@string/pt_sans_web_text_bold_italic</item>
+        <item>@string/pt_sans_web_text_italic</item>
+        <item>@string/pt_sans_web_text_regular</item>
+    </string-array>
+
+
+</resources>

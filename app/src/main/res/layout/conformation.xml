@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="conformationVm"
+            type="com.spider.star.nexbaseclient.conformation.viewmodal.ConformationVm"/>
+    </data>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark">
+
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_left_arrow"
+                            android:onClick="@{conformationVm::OnClickBackpress}"/>
+
+
+                        <TextView
+                            android:layout_marginLeft="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/conformation"
+                            android:textSize="20sp"
+                            android:textColor="@color/white"
+                            app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.Toolbar>
+
+
+            </android.support.design.widget.AppBarLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp">
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_tickmark"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:text="@string/your_ticket_hasbeen_update"
+                    android:gravity="center"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+                <TextView
+                    android:id="@+id/ticket_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/ticket_id"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/kindly_wait_for_conformation"
+                    android:gravity="center"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+                <View
+                    android:layout_marginTop="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:text="@string/status"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@drawable/border_linegray"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_marginStart="10dp"
+                            android:layout_width="5dp"
+                            android:layout_height="5dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/oval"
+                            />
+
+
+                        <TextView
+                            android:layout_marginStart="5dp"
+                            android:id="@+id/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:text="@string/your_ticket_has_accepted"
+                            android:layout_gravity="center"
+                            app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+                    </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="@string/track_executive"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:onClick="@{conformationVm::OnClicktrackexective}"
+                    android:layout_gravity="center"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border_linegray"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/oval" />
+
+
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/your_ticket_is_on_process"
+                        android:layout_gravity="center"
+                        app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border_linegray"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="5dp"
+                        android:layout_height="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/oval" />
+
+
+                    <TextView
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="@string/your_problem_hasbeen_resolved"
+                        android:layout_gravity="center"
+                        app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kindly, rate us"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/rate_us"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:onClick="@{conformationVm::OnClickrateus}"
+                    app:font="@{@string/pt_sans_web_text_regular}"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</layout>
